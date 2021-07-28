@@ -1,0 +1,31 @@
+Planet list formatting:
+planet = ["planet name here","planet report here",a,b,c,d]
+a - water supply (days)
+b - scrap (1-10, depending on size)
+c - exploration time (days)
+d - proximity to sun (1 - too close, 2 - good distance, 3 - too far)
+
+Room list formatting:
+room=["Room 0 - (description)",a,b,c,d]
+a - room# to the north of current
+b - room# to the east of current
+c - room# to the south of current
+d - room# to the west of current
+*use None if no room in that direction
+
+RNG formatting:
+rng = ["description here","display options",rnggood,rngbad]
+rnggood = ["a","b",c,d,e,f]
+rngbad = ["a","b",c,d,e,f]
+a - affected system
+b - bad effect on system (see System key)
+c - cryo pods to lose/gain (-/+)
+d - drones to lose/gain (-/+)
+e - scrap to lose/gain (-/+)
+f - water to lose/gain (-/+)
+
+System key:
+Online - works 100% of the time
+Damaged - works 50% of the time
+Offline - works 0% of the time
+*or other issues may occur
