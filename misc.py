@@ -10,17 +10,17 @@ from os import system,name
 
 #function for intro text
 def introtext():
-  print "     _                      _      _             _                  ___"
+  print("     _                      _      _             _                  ___")
   time.sleep(0.1)
-  print "    /_\  __ _ _  _ __ _    /_\  __| |_ _____ _ _| |_ _  _ _ _ ___  |_  )"
+  print("    /_\  __ _ _  _ __ _    /_\  __| |_ _____ _ _| |_ _  _ _ _ ___  |_  )")
   time.sleep(0.1)
-  print "   / _ \/ _` | || / _` |  / _ \/ _` \ V / -_) ' \  _| || | '_/ -_)  / /"
+  print("   / _ \/ _` | || / _` |  / _ \/ _` \ V / -_) ' \  _| || | '_/ -_)  / /")
   time.sleep(0.1) 
-  print "  /_/ \_\__, |\_,_\__,_| /_/ \_\__,_|\_/\___|_||_\__|\_,_|_| \___| /___|"
+  print("  /_/ \_\__, |\_,_\__,_| /_/ \_\__,_|\_/\___|_||_\__|\_,_|_| \___| /___|")
   time.sleep(0.1)
-  print "           |_|"
+  print("           |_|")
   time.sleep(0.1)
-  print "                                                made by robert brzostek \n\n\n\n"
+  print("                                                made by robert brzostek \n\n\n\n")
   time.sleep(1)
 
 #function to clear the screen (courtesy of geeksforgeeks.org)
