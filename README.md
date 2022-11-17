@@ -1,7 +1,7 @@
 # Aqua Adventure 2
 Second game in the Aqua Adventure series, made in Grade 11 Computer Science, built in Python. Main branch has an updated version for Python 3. Run main.py to play. I've uploaded it here so I can easily refer back to it.
 
-Note: the updated version for Python 3 is barely tested; it may contain bugs and broken features from the port from 2.7.
+Note: the updated version for Python 3 is barely tested; it may contain bugs and broken features resulting from the upgrade.
 
 
 # The Series
